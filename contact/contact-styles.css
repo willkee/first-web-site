@@ -100,17 +100,3 @@ button {
     padding-right: 30px;
     z-index: 9999;
 }
-
-.travelGallery {
-    display: grid;
-    grid-row-gap: 30px;
-    grid-column-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 200px);
-}
-
-.gallery {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
