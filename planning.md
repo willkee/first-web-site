@@ -13,7 +13,7 @@ H1: WILL KEE
 H2: About Me
     Text
 
-H2: My Skills
+H2: Interests
     Text
 
 H2: My Education
