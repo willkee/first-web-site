@@ -100,3 +100,81 @@ button {
     padding-right: 30px;
     z-index: 9999;
 }
+
+
+/* Form */
+
+fieldset {
+    border: 0;
+}
+form {
+    margin: 0 auto;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+legend {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 425px;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: white;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.replyBox {
+    justify-self: start;
+    padding: 3px;
+}
+
+#submitButton {
+    border: 1px solid white;
+    margin-left: 32em;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 650px) {
+    form {
+        width: auto;
+    }
+
+    label {
+        display: block;
+        margin: 0;
+        text-align: left;
+        width: auto;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+    }
+}
